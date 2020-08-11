@@ -1,0 +1,349 @@
+html, body { font-family: "trebuchet ms", arial, tahoma, helvetica, sans-serif; font-size: 100%; color: rgb(102, 102, 102); height: 100%; width: 100%; margin: 0px; padding: 0px; background: white; }
+img { border: 0px; margin: 0px; }
+table { border: 0px; border-collapse: collapse; }
+table td { padding: 0px; }
+.w100 { width: 100%; }
+.w10 { width: 10px; }
+.h100 { height: 100%; }
+.bold { font-weight: bold; }
+.linel { border-left: 1px dashed rgb(229, 229, 229); }
+.liner { border-right: 1px dashed rgb(229, 229, 229); }
+.lineb { border-bottom: 1px dashed rgb(229, 229, 229); }
+.linet { border-top: 1px dashed rgb(229, 229, 229); }
+.marl { margin-left: 10px; }
+.marr { margin-right: 10px; }
+.pad0 { padding: 0px !important; }
+.padl { padding-left: 10px !important; }
+.padr { padding-right: 10px; }
+.padt { padding-top: 10px !important; }
+.padb { padding-bottom: 10px !important; }
+.alignl { text-align: left !important; }
+.alignc { text-align: center !important; }
+.alignr { text-align: right !important; }
+.alignt { vertical-align: top !important; }
+.aligncc { vertical-align: middle !important; text-align: center !important; }
+.txt { text-align: justify !important; }
+.rozn { font-size: 60% !important; color: rgb(158, 158, 158) !important; }
+td.mainpic { height: 176px; vertical-align: middle !important; }
+td.cat_txt { font-size: 75%; color: rgb(154, 154, 154); }
+span.price { color: rgb(247, 197, 47); font-weight: bold; }
+div.parent { position: relative; height: 100%; }
+div.pages table td { font-size: 90%; color: rgb(0, 74, 78); padding-right: 10px; vertical-align: middle; }
+div.pages table td strong { font-size: 90%; color: rgb(252, 208, 77); }
+div.pages table td a { font-size: 90%; color: rgb(0, 74, 78); }
+a { font-size: 70%; color: rgb(102, 102, 102); }
+a:hover { text-decoration: underline; }
+a.mode { color: rgb(19, 103, 92); text-decoration: none; }
+a.mode:hover { text-decoration: none; color: rgb(247, 197, 47); }
+input { color: rgb(19, 103, 92); font-size: 90%; }
+input.text { margin: 0px; height: 19px; border: 1px solid rgb(218, 218, 218); width: 100%; padding: 0px 5px; }
+input.text2 { margin: 0px; height: 19px; border: 1px solid rgb(218, 218, 218); width: 350px; padding: 0px 5px; }
+input.submit { width: 49px; height: 20px; margin: 0px; background: rgb(233, 233, 233); vertical-align: middle; font-size: 80%; border: 1px solid rgb(218, 218, 218); text-align: center; }
+hr { border: 1px rgb(136, 111, 87); }
+h1, h2 { color: rgb(0, 74, 78); font-size: 120%; margin: 0px; }
+table.content { width: 100%; }
+table.content td.logo { width: 195px; height: 165px; vertical-align: top; }
+table.logo { width: 195px; height: 165px; }
+table.logo td { text-align: right; vertical-align: bottom; height: 1px; }
+table.logo td.logotip { height: 139px; }
+table.logo td.line { height: 5px; background: rgb(31, 84, 87); }
+td.top { height: 165px; padding-left: 37px; }
+table.top { width: 100%; height: 165px; }
+table.top td { vertical-align: top; }
+table.top_auth { width: 489px; height: 30px; background: rgb(247, 249, 249); }
+table.top_auth td { vertical-align: bottom; text-align: center; padding: 3px; }
+table.top_auth input.text { width: 83px; }
+table.top_auth td.optom { padding-bottom: 6px; }
+table.top_auth td.forgpass { padding-bottom: 6px; }
+table.top_auth td.forgpass a { padding-bottom: 6px; font-size: 60%; }
+table.top_auth td.zareg { padding-bottom: 6px; }
+table.top_auth td.zareg a { color: rgb(153, 153, 153); }
+table.top_auth a { color: rgb(19, 103, 92); }
+td.cont_line { padding-right: 10px; }
+table.top_contacts { width: 240px; }
+table.top_contacts td { vertical-align: middle; text-align: right; }
+table.top_contacts td.tel { width: 100px; vertical-align: top; text-align: right; }
+div.parent div.tel { position: absolute; top: 7px; right: 0px; }
+table.top_contacts a { color: rgb(153, 153, 153); font-size: 60%; }
+td.cont_cat { padding-right: 10px; height: 68px; background: rgb(252, 208, 77); }
+table.top_categories { width: 100%; height: 68px; border-right: 1px dashed rgb(226, 187, 69); }
+table.top_categories td { vertical-align: bottom; padding: 0px 0px 6px 11px; text-align: left; }
+table.top_categories td a { color: rgb(19, 103, 92); text-decoration: none; font-size: 90%; }
+table.top_categories td strong { color: rgb(19, 103, 92); text-decoration: none; font-size: 105%; }
+table.top_categories td.incat a { font-size: 130%; }
+td.top_cat_rgh { width: 260px; font-size: 75%; vertical-align: middle !important; }
+td.top_cat_rgh a { font-size: 75%; text-decoration: underline !important; }
+td.top_cat_rgh ul { margin: 0px 0px 0px 18px; list-style: outside url("ul-cat.gif") none; }
+td.menu { padding: 0px 0px 0px 10px; vertical-align: top; }
+table.menu { width: 100%; height: 100%; }
+table.menu td { vertical-align: top; }
+td.list { padding: 20px 0px 50px; text-align: left; vertical-align: top; width: 184px; }
+td.list ul { margin: 0px 0px 0px 18px; padding: 0px; list-style: outside url("ul-menu.gif") none; }
+td.list ul li a { font-size: 75%; text-decoration: none; color: rgb(19, 103, 92); }
+td.list ul li a:hover { list-style: outside url("ul-menu-hover.gif"); color: rgb(255, 102, 0); }
+td.list ul.ul_sel li { list-style: outside url("ul-menu-sel.gif"); font-size: 75%; color: rgb(255, 204, 0); }
+td.list li.li_sel { font-size: 75%; color: rgb(255, 204, 0); }
+td.list li.item a { font-size: 70%; color: rgb(19, 103, 92); }
+td.list li.item_sel { font-size: 70%; color: rgb(255, 204, 0); }
+td.list li.item a { }
+div.sub { margin-left: 20px; }
+div.sub a { font-size: 75%; text-decoration: none; color: rgb(19, 103, 92); }
+div.sub ul { margin: 5px 0px 0px 15px; list-style-image: none; }
+div.sub ul li a:hover { list-style-image: none; color: rgb(255, 102, 0); }
+td.search { border-top: 4px solid rgb(247, 197, 47); text-align: left; vertical-align: top; height: 100px; width: 184px; }
+table.search { height: 100%; width: 100% !important; }
+table.search td { vertical-align: top; color: rgb(0, 74, 78); font-size: 80%; padding-left: 13px; }
+table.search td.sform { vertical-align: bottom; text-align: left; height: 140px; padding-top: 50px; }
+span.scont { width: 136px; text-align: right; }
+table.search input.stxt { height: 21px; width: 136px; border: 1px solid rgb(0, 74, 78); margin: 7px 0px; }
+table.search input.submit { color: rgb(0, 74, 78); }
+div.binokl { position: absolute; top: -21px; left: -22px; }
+td.inner { padding: 0px 10px 0px 37px; vertical-align: top; }
+div.path { margin: 20px 0px 14px; font-size: 70%; color: rgb(153, 153, 153); }
+div.path a { font-size: 100%; color: rgb(153, 153, 153); text-decoration: none; }
+table.inner_content { width: 100%; height: 40px !important; }
+table.inner_content td { vertical-align: top; }
+td.in_body { padding-bottom: 20px; }
+td.in_body h1.pageheader { margin: 0px 10px 20px 0px; color: rgb(0, 74, 78) !important; }
+td.inner_cont { color: rgb(255, 204, 0); font-size: 90%; padding-bottom: 5px; vertical-align: bottom !important; }
+td.about { height: 100%; font-size: 80%; padding: 10px 22px 0px 0px; text-align: justify; vertical-align: top; margin: 0px; }
+div.about { background: rgb(247, 249, 249); padding: 7px 12px 10px 10px; }
+div.about h1 { font-size: 130%; color: rgb(19, 103, 92); }
+td.new { vertical-align: top; font-size: 90%; width: 260px; height: 100%; }
+table.new { color: rgb(0, 74, 78); width: 260px; height: 100%; }
+table.new td { vertical-align: middle; text-align: center; font-size: 80%; padding-top: 15px; }
+table.new td.new_top { border-top: 4px solid rgb(247, 197, 47); }
+table.new td a { color: rgb(0, 74, 78); font-size: 100%; }
+table.new td.ihatelines { height: 100%; padding-right: 10px; }
+td.news { vertical-align: top; padding: 20px 22px 0px 0px; }
+td.news table td { color: rgb(19, 103, 92); vertical-align: top; }
+td.news table h1 { font-size: 100%; font-weight: 100; }
+table.news { margin-top: 10px; }
+table.news a { color: rgb(19, 103, 92); font-size: 100% !important; }
+table.news .txt { color: rgb(19, 103, 92); }
+table.news td { font-size: 80%; color: rgb(102, 102, 102); }
+table.news td.date { color: rgb(247, 197, 47); }
+td.yorder { vertical-align: top; font-size: 90%; width: 196px; height: 100%; }
+table.yorder { color: rgb(0, 74, 78); width: 196px; height: 100%; border-top: 4px solid rgb(247, 197, 47); }
+table.yorder td { vertical-align: top; }
+table.yorder td.pic { height: 57px; vertical-align: top; }
+div.parent div.yorder_pic { position: absolute; top: -49px; right: -10px; }
+table.tabliza { width: 100%; height: 20px; }
+table.tabliza td { vertical-align: middle; padding-left: 10px; }
+tr.tabl_h td { padding-bottom: 21px; color: rgb(0, 74, 78); font-size: 75%; }
+tr.basket td { padding-bottom: 5px; color: rgb(153, 153, 153); font-size: 70%; }
+tr.atall { background: rgb(247, 249, 249); height: 20px; color: rgb(0, 74, 78); }
+tr.atall td { color: rgb(0, 74, 78); font-size: 70%; }
+table.yorder td.lastcol { height: 70%; }
+table.simbar { margin-top: 21px; }
+table.simbar td { vertical-align: middle; color: rgb(153, 153, 153); font-size: 70%; }
+table.simbar td.sb_head { padding-bottom: 12px; }
+table.simbar td.sb_head a { color: rgb(0, 74, 78); font-weight: bold; font-size: 105%; }
+table.simbar td.sb_clear { padding-top: 12px; }
+table.simbar td.sb_clear a { color: rgb(0, 74, 78); font-size: 90%; }
+td.sendorder { color: rgb(178, 200, 202); padding: 10px 0px 10px 10px; line-height: 13px; }
+td.sendorder a { color: rgb(0, 74, 78); font-weight: bold; font-size: 80%; }
+td.sendorder a.warn { color: rgb(255, 0, 0) !important; text-decoration: none !important; font-weight: normal !important; }
+td.sendorder div { color: rgb(255, 0, 0); font-size: 100%; }
+table.items { width: 100%; margin: 30px 0px 0px; }
+table.items td { padding-bottom: 17px; }
+td.item_descr { padding-left: 19px; vertical-align: top; line-height: 13px; }
+span.item_name a { color: rgb(19, 103, 92); font-size: 80%; text-decoration: none; }
+span.item_desc { color: rgb(153, 153, 153); font-size: 70%; }
+table.goods { width: 97%; margin: -20px 0px 0px; }
+table.goods tr.goods_header td { font-size: 70%; vertical-align: middle; }
+table.goods td { padding: 5px; }
+td.goods_desc { vertical-align: top; line-height: 13px; }
+table.goods_desc { font-size: 100%; }
+table.goods_desc td { color: rgb(0, 74, 78); padding: 0px; vertical-align: top; font-size: 80%; }
+table.goods_desc td a { color: rgb(0, 74, 78); font-size: 90%; }
+table.goods_desc td h1 { font-size: 120%; display: inline; margin-bottom: 5px; }
+table.goods_desc td ul { margin: 0px 0px 5px; list-style-type: disc; }
+td.goods_name { padding-bottom: 3px; color: rgb(0, 74, 78); vertical-align: top; font-size: 80%; }
+td.goods_name a { color: rgb(0, 74, 78); font-size: 90%; }
+table.goods_desc td.goods_cod { font-size: 70%; }
+table.goods_desc td.goods_other { font-size: 80%; }
+table.goods_desc td.goods_recprice { color: rgb(153, 153, 153); font-size: 65%; }
+table.goods_desc td.goods_detail { padding-bottom: 11px; }
+table.goods_desc td.lb { border-bottom: 1px solid rgb(252, 208, 77); }
+table.goods_desc td.pb { padding-top: 8px; }
+table.goods_desc td.g_head { color: rgb(0, 74, 78); font-size: 80%; padding-top: 10px; }
+table.goods_desc td.th { color: rgb(102, 102, 102); font-size: 70%; }
+table.goods_desc td.th a { color: rgb(102, 102, 102); font-size: 100%; }
+table.goods_desc td ul.dnld { margin: 0px 0px 0px 18px; list-style: outside url("ul-good.gif"); }
+table.goods_desc td ul.dnld li a { font-size: 115%; color: rgb(0, 74, 78); }
+table.goods_desc td.nalich { color: rgb(0, 74, 78); }
+table.goods_desc td.nalich a { font-size: 100%; }
+table.goods_desc td a.add_compare { font-size: 120%; color: rgb(0, 74, 78); font-weight: bold; }
+td.addto { font-size: 75%; vertical-align: top; height: 25px; }
+td.addto a { font-size: 100% !important; }
+td.addto table { border: 1px solid rgb(252, 208, 77); width: 179px; height: 27px; }
+td.addto table td { font-size: 75%; vertical-align: middle; text-align: center; padding: 2px 2px 2px 3px !important; }
+td.addto table td input { border: 1px solid rgb(218, 218, 218); width: 30px; height: 19px; font-size: 75%; text-align: center; }
+td.addto input.submit { width: 80px; font-weight: bold; }
+table.zakaz { width: 97%; }
+table.zakaz a { font-size: 100%; color: rgb(0, 74, 78); text-decoration: none; }
+table.zakaz input { width: 24px; font-size: 80%; border: 1px solid rgb(218, 218, 218); text-align: center; }
+table.zakaz input.submit { cursor: pointer; width: 85px; font-weight: bold; }
+table.zakaz input.submit:disabled { cursor: default; width: 85px; color: rgb(132, 132, 132); font-weight: bold; }
+table.zakaz td.bg { background: rgb(247, 249, 249); }
+table.zakaz td.bg_few { background: rgb(251, 228, 224); }
+table.zakaz td.bg_no { background: rgb(248, 198, 190); }
+td.z_pic { width: 80px; }
+td.itog { background: rgb(252, 208, 77); height: 25px; text-align: left !important; font-size: 75% !important; }
+td.done { font-weight: bold; padding: 0px; text-align: right !important; }
+td.done a { color: rgb(0, 74, 78); }
+td.done input.filev { width: 100%; }
+td.done table table td { padding: 0px 0px 0px 10px; }
+table.zakaz td { padding: 7px; text-align: center; color: rgb(0, 74, 78); font-size: 75%; }
+table.zakaz tr.z_head td { color: rgb(153, 153, 153); font-size: 70%; }
+table.zakaz tr.z_head td.z_price { width: 100px; }
+table.zakaz td.rozn { font-size: 70% !important; }
+table.zakaz input.z_amount { width: 30px; }
+table.contacts { width: 100%; }
+table.contacts td img { border: 1px solid rgb(0, 74, 78); margin-right: 22px; }
+table.contacts td h1 { color: rgb(19, 103, 92); font-size: 100%; font-weight: 100; }
+table.contacts td.contacts_txt { color: rgb(102, 102, 102); font-size: 80%; text-align: justify; padding-right: 10px; }
+table.contacts td.contacts_txt a { font-size: 100%; }
+td.OS { padding: 60px 10px 0px 0px; }
+td.OS table { width: 100%; }
+td.OS table textarea { width: 100%; border: 1px solid rgb(0, 74, 78); overflow: auto; }
+td.OS table input { width: 100%; border: 1px solid rgb(0, 74, 78); height: 20px; vertical-align: middle; }
+td.OS table input.submit { width: 70px; color: rgb(0, 74, 78); }
+td.OS table select { width: 100%; border: 1px solid rgb(0, 74, 78); }
+table.articles h1 { color: rgb(19, 103, 92); font-weight: 100; font-size: 90%; }
+table.articles a { color: rgb(102, 102, 102); font-size: 75%; }
+table.articles td { color: rgb(102, 102, 102); }
+table.articles td.txt { font-size: 80%; }
+td.OS table td { color: rgb(0, 74, 78); font-size: 80%; padding-bottom: 10px; }
+div.faq_top h1 { color: rgb(0, 74, 78); font-size: 80%; margin: 14px 0px 2px; font-weight: 100; }
+div.faq_top a { font-size: 70%; }
+div.faq_top ul { margin: 0px 0px 0px 20px; list-style-type: none; }
+table.faq_body { width: 97%; margin: 38px 0px 10px; }
+table.faq_body h2 { font-size: 120%; margin: 0px; }
+table.faq_body a { font-size: 100%; }
+table.faq_body td { padding-top: 9px; font-size: 70%; text-align: justify; }
+table.faq_body td.fq_head { color: rgb(0, 74, 78); font-size: 100%; border-bottom: 1px solid rgb(252, 208, 77); padding-top: 20px; }
+table.stores { color: rgb(19, 103, 92); font-size: 70%; }
+table.stores td { padding-bottom: 16px; }
+table.stores td table { color: rgb(19, 103, 92); font-size: 100%; padding: 0px; }
+table.cert { color: rgb(19, 103, 92); font-size: 80%; }
+table.cert a { color: rgb(19, 103, 92); font-size: 100%; }
+table.prices { color: rgb(19, 103, 92); font-size: 80%; width: 97%; }
+table.prices td { height: 40px; background: rgb(247, 249, 249); vertical-align: middle; padding-left: 12px; border-bottom: 5px solid white; }
+table.prices tr.white td { background: white; font-size: 90%; height: 25px; padding-left: 30px; }
+table.prices a { color: rgb(19, 103, 92); font-size: 100%; }
+table.admin { width: 100%; }
+table.admin input.submit { border: 1px solid rgb(154, 164, 183); margin: 0px; padding: 0px; font-size: 80%; vertical-align: middle; }
+table.admin input.radio { border: 0px; }
+table.admin td { font-size: 75%; padding: 3px 0px; }
+table.admin td a { font-size: 100%; text-decoration: none; }
+table.selprops { width: 100%; }
+table.selprops select { width: 95%; }
+table.selprops input { width: 95%; }
+table.ad_list { font-size: 120%; width: 100%; }
+table.ad_list td { vertical-align: middle; }
+table.auth { font-size: 80%; }
+table.auth td { padding-right: 5px; text-align: right; }
+table.auth td input { width: 120px; margin: 0px; }
+table.ad_view { font-size: 100%; width: 97%; }
+table.ad_view td { vertical-align: middle; font-size: 100%; }
+table.ad_view td input.text { padding: 1px 0px 0px 2px; width: 70%; font-size: 110%; height: 21px !important; }
+table.ad_view td input.submit { padding: 0px 0px 0px 2px; width: 100px; font-size: 105%; font-weight: bold; }
+table.ad_view td textarea { padding: 0px 0px 0px 2px; width: 70%; font-size: 110%; }
+table.ad_view th { width: 150px; }
+table.uslist { font-size: 80%; width: 1200px; }
+table.uslist td { vertical-align: middle; font-size: 100%; height: 21px; padding: 0px; }
+table.uslist td input.text { padding: 1px 0px 0px 2px; width: 100%; font-size: 110%; height: 21px; border-left: 0px; }
+table.uslist td select { width: 100%; font-size: 90%; }
+table.uslist td input.submit { padding: 0px 0px 0px 2px; width: 100px; font-size: 105%; font-weight: bold; }
+table.panel { width: 100%; height: 25px; margin-top: 1px; }
+table.panel td { padding: 2px 5px; text-align: center; vertical-align: middle; }
+table.panel td input { width: 100px; font-size: 100%; }
+table.panel td a:hover { text-decoration: none; }
+table.compare { font-size: 80%; }
+table.compare td { vertical-align: middle; text-align: center; padding: 2px; color: rgb(0, 74, 78); }
+table.compare td a { font-size: 85%; }
+table.compare td.c_name { width: 300px; text-align: left; }
+table.compare tr.c_head td { border-bottom: 1px solid rgb(252, 208, 77); }
+table.compare tr.tigra td { background: rgb(247, 249, 249); }
+table.compare td.params { font-size: 90%; color: rgb(102, 102, 102); height: 25px; }
+td.c_addto { font-size: 75%; vertical-align: top; height: 25px; }
+td.c_addto a { font-size: 95% !important; }
+td.c_addto table { border: 1px solid rgb(252, 208, 77); height: 27px; }
+td.c_addto table td { font-size: 75%; vertical-align: middle; text-align: center; padding: 2px 2px 2px 3px !important; }
+td.c_addto table td input { border: 1px solid rgb(218, 218, 218); width: 30px; height: 19px; font-size: 75%; text-align: center; }
+table.createorder { width: 97%; font-size: 80%; }
+table.createorder td { padding: 5px; border-left: 1px solid gray; border-right: 1px solid gray; text-align: center; }
+table.createorder td input.submit { width: 120px; font-weight: bold; }
+table.reg { width: 60%; font-size: 80%; }
+table.reg td { padding: 2px; }
+table.reg td.reg_head { padding-right: 10px; vertical-align: top; font-weight: bold; text-align: right; }
+table.reg input.text { width: 100%; }
+table.reg input.rdonly { border: 0px; padding: 0px; }
+table.reg input.submit { width: 140px; font-weight: bold; }
+td.creator { height: 107px; vertical-align: top; }
+td.creator table td { vertical-align: top; text-align: left; line-height: 10px; padding: 33px 0px 0px 11px; }
+td.creator table td a { text-decoration: none; }
+td.bottom { padding: 0px 0px 0px 37px; vertical-align: top; }
+table.bottom { width: 100%; font-size: 82%; }
+table.bottom { width: 100%; font-size: 82%; text-align: left; }
+table.bottom table { font-size: 82%; width: 100%; }
+table.bottom table { font-size: 82%; }
+table.bottom table a { font-size: 100%; }
+table.bottom table table.buttons { width: 0%; margin-right: 8px; }
+table.buttons td { padding-right: 8px; }
+table.innerline td { height: 1px; }
+table.innerline td.line { height: 5px; width: 100%; background: rgb(31, 84, 87); }
+td.bot_cont { padding: 5px 0px 0px; }
+#lbOverlay { position: fixed; z-index: 9999; left: 0px; top: 0px; width: 100%; height: 100%; background-color: rgb(0, 0, 0); cursor: pointer; }
+#lbCenter, #lbBottomContainer { position: absolute; z-index: 9999; overflow: hidden; background-color: rgb(255, 255, 255); }
+.lbLoading { background: url("loading.gif") center center no-repeat rgb(255, 255, 255); }
+#lbImage { position: absolute; left: 0px; top: 0px; border: 10px solid rgb(255, 255, 255); background-repeat: no-repeat; }
+#lbPrevLink, #lbNextLink { display: block; position: absolute; top: 0px; width: 50%; outline: none; }
+#lbPrevLink { left: 0px; }
+#lbPrevLink:hover { background: url("prevlabel.gif") 0px 15% no-repeat transparent; }
+#lbNextLink { right: 0px; }
+#lbNextLink:hover { background: url("nextlabel.gif") 100% 15% no-repeat transparent; }
+#lbBottom { font-family: Verdana, Arial, Geneva, Helvetica, sans-serif; font-size: 10px; color: rgb(102, 102, 102); line-height: 1.4em; text-align: left; border-width: 10px; border-style: none solid solid; border-color: rgb(255, 255, 255); border-image: initial; }
+#lbCloseLink { display: block; float: right; width: 66px; height: 22px; background: url("closelabel.gif") center center no-repeat transparent; margin: 5px 0px; outline: none; }
+#lbCaption, #lbNumber { margin-right: 71px; }
+#lbCaption { font-weight: bold; }
+.cwCompleteOuter { position: absolute; z-index: 10001; }
+ul.cwCompleteChoices { list-style: inside none; margin: 0px; padding: 1px; z-index: 10001; width: 250px; background: rgb(226, 226, 226); opacity: 0.85; box-shadow: rgb(51, 51, 51) 2px 2px 7px; }
+ul.cwCompleteChoices li { display: block; cursor: pointer; padding: 5px; margin: 5px; text-align: left; color: rgb(0, 0, 0); font-size: 13px; z-index: 10001; }
+ul.cwCompleteChoices li:hover, .cwCompleteChoicesHover { text-decoration: underline; background-color: rgb(132, 239, 105); z-index: 10001; }
+.cwCompleteLoading { background: url("ajax-loader-pipe.gif") no-repeat transparent; width: 100px; height: 12px; padding-bottom: 12px; z-index: 10001; }
+.tr_head { text-align: left; background-color: rgb(252, 208, 77); font-weight: bold; }
+.xdebug-var-dump { font-size: 100%; }
+.msgActive { background-color: rgb(215, 211, 211); }
+.msgBox { font-family: Arial, Helvetica, sans-serif; opacity: 0; position: absolute; top: -1000px; left: 0px; max-width: 250px; min-width: 150px; color: rgb(170, 170, 170); background: rgba(0, 0, 0, 0.8); padding: 10px; border-radius: 15px; box-shadow: rgb(102, 102, 102) 2px 2px 5px; z-index: -1; }
+.msgBoxImage { width: 40px; height: 40px; }
+.msgBoxIcon { float: left; width: 40px; height: 40px; padding-right: 7px; }
+.msgBoxTitle { float: left; color: rgb(255, 255, 255); }
+.msgBoxContent { float: left; max-width: 80%; font-size: 12px; }
+.msgBoxMessage { float: left; }
+.msgBoxLink { color: rgb(102, 153, 204); }
+.msgBoxLink:hover { color: rgb(255, 153, 0); }
+.msgEditable { font-family: Arial, Helvetica, sans-serif; font-size: 12px; width: 250px; background: rgba(255, 255, 255, 0.1); border: rgb(0, 0, 0); color: rgb(255, 255, 255); }
+.overl { display: block; position: absolute; left: 0px; top: 0px; width: 0px; height: 0px; background-color: rgb(0, 0, 0); }
+.blk { display: block; position: absolute; left: 0px; top: 0px; width: 0px; height: 0px; border: 1px solid rgb(0, 0, 0); background-color: rgb(255, 255, 255); z-index: 10000; box-shadow: black 4px 4px 15px; }
+.link { cursor: pointer; border: 1px solid rgb(255, 255, 255); background-color: rgb(255, 255, 255); }
+.linkOn { cursor: pointer; border: 1px solid rgb(49, 106, 197); background-color: rgb(193, 210, 238); }
+.TParams { cursor: move; }
+.tbl_row1 { background-color: rgb(238, 238, 245); }
+.tbl_row2 { background-color: rgb(247, 247, 247); }
+.xdebug-var-dump { background: rgb(132, 239, 105); display: block; position: absolute; left: 850px; top: 200px; border: 1px solid green; box-shadow: black 4px 4px 10px; z-index: 1000; }
+span.item_name a { color: rgb(19, 103, 92); font-size: 100%; }
+span.price { color: rgb(255, 128, 0); font-weight: bold; }
+td.goods_name a { color: rgb(0, 74, 78); font-size: 130%; text-decoration: none; }
+td.goods_name a:hover { color: rgb(0, 74, 78); font-size: 130%; text-decoration: underline; }
+input.submit { background: none 0px 0px repeat scroll rgb(233, 233, 233); border: 1px solid rgb(218, 218, 218); border-radius: 3px; font-size: 80%; height: 30px; margin: 0px; padding: 5px 15px; text-align: center; vertical-align: middle; width: auto; }
+table.simbar td.sb_clear a { color: rgb(0, 74, 78); font-size: 110%; }
+td.list ul.ul_sel li { color: rgb(255, 128, 0); font-size: 75%; list-style: outside url("ul-menu-sel.gif") disc; }
+td.list li.li_sel { color: rgb(255, 128, 0); font-size: 75%; }
+td.list li.item_sel { color: rgb(255, 128, 0); font-size: 70%; }
+td.addto a { font-size: 120% !important; }
+td.addto table td { text-align: center; vertical-align: middle; padding: 4px !important; }
+td.addto table td input { border: 1px solid rgb(218, 218, 218); font-size: 150%; height: 21px; text-align: center; width: 30px; }
+td.addto table { border: 1px solid rgb(252, 208, 77); height: auto; width: auto; }
